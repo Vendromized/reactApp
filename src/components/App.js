@@ -57,6 +57,7 @@ class App extends Component {
   }
 
   handleInputChange = (e) => {
+    e.preventDefault();
     this.setState({
       value: e.target.value
     })
